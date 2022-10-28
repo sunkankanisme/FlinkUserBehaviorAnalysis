@@ -23,7 +23,7 @@ object HotItemsWithSql {
         val tableEnv = StreamTableEnvironment.create(env, settings)
 
         // 使用 FileSource
-        val inputStream: DataStream[String] = env.readTextFile("D:\\workspace\\Java\\Sunk\\FlinkUserBehaviorAnalysis\\HotItemsAnalysis\\src\\main\\resources\\UserBehavior.csv")
+        val inputStream: DataStream[String] = env.readTextFile("HotItemsAnalysis/src/main/resources/UserBehavior.csv")
 
         // 提取时间戳，生成 WaterMark（此数据源是有序的所以不指定 WaterMark）
         val dataStream: DataStream[UserBehavior] = inputStream.map(line => {
