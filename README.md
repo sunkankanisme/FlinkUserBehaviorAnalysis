@@ -21,3 +21,17 @@
 > - `com.sunk.market.AppMarketByChannel`: 分渠道统计指标
 > - `com.sunk.market.AdClickAnalysis`: 页面广告分析
 
+## LoginFailDetect
+
+> 恶意登录监控
+> - `com.sunk.login.LoginFail`: 恶意登录监控
+> - `com.sunk.login.LoginFailV2`: 恶意登录监控, 优化
+> - `com.sunk.login.LoginFailV3`: 恶意登录监控, 使用 CEP 编程
+
+## OrderPayDetect
+
+> 订单状态检测
+> - `com.sunk.orderpay.OrderTimeout`: 订单支付超时检测, 使用 CEP 编程
+
+
+
