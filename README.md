@@ -33,6 +33,8 @@
 > 订单状态检测
 > - `com.sunk.orderpay.OrderTimeout`: 订单支付超时检测, 使用 CEP 编程
 > - `com.sunk.orderpay.OrderTimeoutProcess`: 使用 ProcessFunction 完成订单超时检测
+> - `com.sunk.orderpay.TxMatchConnect`: 使用 connect 算子完成实时对账流匹配
+> - `com.sunk.orderpay.TxMatchJoin`：使用 intervalJoin 算子完成实时对账流匹配
 
 
 

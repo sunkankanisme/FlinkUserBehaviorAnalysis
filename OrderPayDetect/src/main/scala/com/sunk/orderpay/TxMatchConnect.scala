@@ -10,7 +10,7 @@ import org.apache.flink.util.Collector
 /*
  * 实时对账，多流 Join
  */
-object TxMatch {
+object TxMatchConnect {
 
     def main(args: Array[String]): Unit = {
 
